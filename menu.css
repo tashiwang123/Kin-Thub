@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Arapey", serif;
+}
+.hero-section2{
+    background: url("Screenshot\ 2024-10-23\ 213724.png") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .hero-section2::before{
+    background-color: rgba(0,0,0,0.6);
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .hero-section2 .container{
+    position: relative;
+    top:100px;
+    color: whitesmoke;
+  }
+  #style3{
+    position: relative;
+   top:170px;
+   text-align: center;
+   font-size: 90px;
+}
+.wrapper{
+    text-align: center;
+}
+
+.parent{
+    width: 37%;
+    margin: 20px;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 3px white;
+    border-radius: 10px;
+
+}
+
+.child{
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    transition: all 1.1s;
+}
+
+.wrapper h2{
+    position: relative;
+    top: 110px;
+}
+
+.wrapper p{
+    font-size: 25px;
+}
+
+
+.bg-one{
+    background-image: url(https://media.istockphoto.com/id/1257475467/photo/tomato-soup-with-tortellini-in-white-bowl-on-white-wooden-table.jpg?s=612x612&w=0&k=20&c=nKoIbiLOTjISV_qptxp8ZxHbVTYOKCCCJPstDIb-ZWw=);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+}
+
+.bg-two{
+    background-image: url(https://images.unsplash.com/photo-1692296979431-42ccdf6b423d?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+}
+
+.bg-three{
+    background-image: url(https://media.istockphoto.com/id/1280749545/photo/pumpkin-pasta.jpg?s=612x612&w=0&k=20&c=DlWJz3kn9lQfFcp-dCV7F9I75a2H7EfZNrwWPvwVHzg=);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+}
+
+.bg-four{
+    background-image: url(https://media.istockphoto.com/id/1286630314/photo/tagliatelle-with-tomato-sauce-pork-meat-and-parmesan-on-wooden-table.jpg?s=612x612&w=0&k=20&c=Y3WOhzN-qqc8I3SiEOBzspRwV13JMVOP6hH28D6nIW0=);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+}
+
+.bg-five{
+    background-image: url(https://media.istockphoto.com/id/1398310863/photo/braised-pork-noodles-in-a-ceramic-cup-black-tone-picture.jpg?s=612x612&w=0&k=20&c=JW8uJpdu9CAurbQqwEBEZ4kgyfB658B-1eVgm6XNp_Q=);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+}
+
+.bg-six{
+    background-image: url(https://media.istockphoto.com/id/1277326551/photo/tasty-khao-soi-a-noodle-soup-originating-in-thailand-is-loaded-chicken-shallots-and-garlic-in.jpg?s=612x612&w=0&k=20&c=4bOexVllcStSIJl1fUewZ8vB8ckfy3eFqrvme62u440=);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+}
+
+
+.bg-seven{
+    background-image: url(https://media.istockphoto.com/id/1058027626/photo/spicy-spaghetti-with-shrimps-in-tomato-sauce-close-up-horizontal-top-view-from-above.jpg?s=612x612&w=0&k=20&c=4LGhI0wSUMHLxrR0sRhONxmR2GLg9oK1vQW_I3IKTug=);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+}
+
+
+.bg-eight{
+    background-image: url(https://media.istockphoto.com/id/527799355/photo/beef-pho.jpg?s=612x612&w=0&k=20&c=YOtqweVUNEy7_SPf9hjW3YOLZ8IwW2zykb5iZJJQ1cw=);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+
+}
+
+
+.bg-nine{
+    background-image: url(https://media.istockphoto.com/id/860269248/photo/pumpkin-porridge.jpg?s=612x612&w=0&k=20&c=Fh3_esZ9XvLhPIJK94hEWA_ljUVWSzvquP24h7S31iw=);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+
+}
+
+
+.bg-ten{
+    background-image: url(https://media.istockphoto.com/id/1366287684/photo/stir-fry-soba-noodles-vegan-recipe-asian-food-with-plant-based-i.jpg?s=612x612&w=0&k=20&c=k2xndNZviND9qxfbtcg0DyqzNc_As3r1t1RTZl8wpo0=);
+    color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+
+}
+
+.parent:hover .child{
+    transform: scale(1.2);
+}
+
+.child button{
+    background-color: #fbba45;
+    border: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+    height: 30px;
+    position: relative;
+    top: 135px;box-shadow: 0 0 15px 3px whitesmoke;
+}
+/* 
+#coding{
+    width: auto;
+    height: 140px;
+    background-color: #212832;
+} */
+
+
+/* .child button:hover{
+    background-color: orange;
+} */
+
+.child button::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    left: 0;
+    top:0;
+    border-radius: 10px;
+}
+
+
+.child button::before{
+    content: "";
+    background: linear-gradient(45deg, #ff0000, #ff7300, rgb(119, 8, 8), #fffb00, purple, #48ff00, #00FFD5, #002bff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+@keyframes glowing {
+    0% {background-position: 0 0;}
+    50%{background-position: 400% 0;}
+    0%{background-position: 0 0;}
+}
+
+.child button:hover::before{
+    opacity: 1;
+}
+
+
+.child button:active::after{
+    background: transparent;
+}
+
+.child button:active{
+    color: #000;
+    font-weight: bold;
+}
+
+@media(max-width: 610px){
+    .parent {
+      width: 180px;
+        height: 180px;
+        background-color: white;
+        font-size: 10px;
+       
+        
+    }
+}
+
+@media(max-width: 610px){
+    .wrapper{
+        text-align: center;
+        background-color: white;
+        font-size: 12px;
+    }
+    .wrapper p{
+        font-size: 13px;
+        padding: 10px;
+    }
+    .hero-section2{
+        height: 300px;
+    }
+
+#style3{
+  position: relative;
+ top:10px;
+ text-align: center;
+ font-size: 50px;
+}
+}
