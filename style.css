@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: "Arapey", serif;
 }
+
+::-webkit-scrollbar{
+  display:none ;
+}
 body{
   overflow-x: hidden;
   /* button color */
